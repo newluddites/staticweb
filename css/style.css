@@ -79,7 +79,7 @@ body {
     border-left-color: var(--primary);
 }
 
-.toc-nested {
+.toc ul ul {
     margin-left: 1.5rem;
     margin-top: 0.25rem;
 }
