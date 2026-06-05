@@ -244,20 +244,37 @@ and to rebuild the ability for Congress to convene. Legislation shall specify th
 responsibility, and it shall only apply during the period of emergency described above. Any attempt to
 use such an emergency to gain power or subvert the rule of the people in any way is treason.
 
+## Bill of Rights {#bill-of-rights}
+
+### Religion {#religion}
+
+No government may establish an official religion or give preference to any religion over any other. Citizens shall have
+the right to practice the religion of their choice without persecution, including the right to no religion. No
+government or government-funded organization may require any religious process or ban private practice of said process.
+The religious practice of one group or individual may not interfere with the religious practice or any civil rights of
+any group or individual. 
+
+### Economic Democracy {#economic-democracy}
+
+In every job in any sector, public or private, the workers must have full democratic control over the direction of the
+whole organization. This includes the ability to vote on hiring and firing members of the board and chief officers.
+Private corporations may only come in two varieties: non-profit and employee-owned. In employee-owned corporations, any
+profits will be split evenly among the employees of the company, as the employees determine through democratic process.
+
 ## Still More to Come {#path-forward}
 
 The following sections are currently being developed to outline a vision for a democracy truly owned and
 operated by the people, designed to finally realize the promises of the Declaration of Independence.
 
 - **Elections:** Removing the influence of money to ensure representatives serve the
-    people, not donors.
-- **Administrative Branch:** Abolishing the presidency in favor of a system of experts
-    who are accountable to Congress and the public.
+  people, not donors.
+- **More Administrative Branch:** Abolishing the presidency in favor of a system of experts
+  who are accountable to Congress and the public while encouraging their independence and expertise.
 - **Judicial Branch:** Transforming the courts from an adversarial system for the wealthy
-    into a unified, fact-finding system with single-payer legal services for all, and ending the
-    practice of bail.
+  into a unified, fact-finding system with single-payer legal services for all, and ending the
+  practice of bail.
 - **Bill of Rights:** Establishing a foundation where the rights of the people are
-    paramount, supported by free education at all levels and a guaranteed independent press.
+  paramount, supported by free education at all levels and a guaranteed independent press.
 
 Ultimately, these reforms aim to move beyond rhetoric and make "Life, Liberty, and the pursuit of
 Happiness" a tangible reality for every individual.
