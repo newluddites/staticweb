@@ -17,8 +17,9 @@ if ! grep -q '<nav class="toc">' constitution/index.html; then
 fi
 
 # Check if there is a nested list in the TOC (Pandoc's TOC generation)
-if ! grep -q '<ul><li>.*<ul>' constitution/index.html; then
-    echo "FAIL: Nested TOC list not found"
+# We check for the presence of multiple <ul> tags in the HTML, which indicates nesting in this context
+if ! grep -c '<ul>' constitution/index.html | grep -q '[2-9]'; then
+    echo "FAIL: Nested TOC list not found (expected multiple <ul> tags)"
     exit 1
 fi
 

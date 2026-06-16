@@ -2,7 +2,7 @@
 set -e
 
 # Navigate to project root
-PROJECT_ROOT="/Users/kirby1976/IdeaProjects/staticweb"
+PROJECT_ROOT=$(git rev-parse --show-toplevel)
 cd "$PROJECT_ROOT"
 
-pandoc "constitution/constitution.md" --toc --template="constitution/index.html.template" -o "constitution/index.html"
+./scripts/build_page.sh "constitution/constitution.md" "constitution/index.html.template" "constitution/index.html"
