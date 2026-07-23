@@ -8,7 +8,10 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo"><a href="../" style="color: inherit; text-decoration: none;">The New Luddites</a></div>
+        <div class="logo-container">
+            <a href="../" class="logo-text" style="text-decoration: none;">The New Luddites</a>
+            <img src="../images/bluesky-avatar.png" alt="Bluesky profile" class="bluesky-avatar" title="Follow us on Bluesky">
+        </div>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <span></span>
@@ -40,12 +43,13 @@
         </section>
     </main>
 
-    <footer id="get-involved">
+<footer id="get-involved">
     <div style="margin-bottom: 1rem; text-align: center;">
         <h3>Get Involved</h3>
-        <p><a href="https://github.com/newluddites" style="color: var(--primary); font-weight: bold;">Follow us on GitHub</a></p>
+        <p><a href="https://bsky.app/profile/newluddites.bsky.social" target="_blank" rel="noopener noreferrer" class="bluesky-link">Follow us on Bluesky</a></p>
     </div>
-    <p>&copy; 2026 The New Luddites. License: <a href="https://github.com/newluddites/staticweb/blob/main/LICENSE">GPL3</a></p>
+
+    <p style="margin-top: 1rem;">&copy; 2026 The New Luddites. License: <a href="../LICENSE">GPL3</a></p>
 </footer>
 </body>
 </html>

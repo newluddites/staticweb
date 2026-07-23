@@ -383,3 +383,79 @@ footer {
         text-align: left;
     }
 }
+
+/* ===== Bluesky Integration ===== */
+
+/* Navbar logo container — flexbox to hold text + avatar */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 2.4rem;
+    letter-spacing: -0.02em;
+    color: var(--primary);
+}
+
+.bluesky-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bluesky-avatar:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px rgba(0, 119, 255, 0.4);
+}
+
+/* Bluesky follow link — matches existing link styling */
+.bluesky-link {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.bluesky-link:hover {
+    color: var(--accent);
+}
+
+/* Bluesky widget container */
+.bluesky-widget {
+    margin: 1.5rem auto 0;
+    text-align: center;
+}
+
+/* Bluesky follow button */
+.bluesky-follow-btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bluesky-follow-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(194, 173, 62, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bluesky-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 2rem;
+    }
+}
