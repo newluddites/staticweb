@@ -413,15 +413,15 @@ footer {
     box-shadow: 0 0 8px rgba(0, 119, 255, 0.4);
 }
 
-/* Bluesky follow link — matches existing link styling */
-.bluesky-link {
+/* Primary link style */
+.link-primary {
     color: var(--primary);
     font-weight: bold;
     text-decoration: none;
     transition: var(--transition);
 }
 
-.bluesky-link:hover {
+.link-primary:hover {
     color: var(--accent);
 }
 
